@@ -1,12 +1,12 @@
 # inherit from the proprietary version
--include vendor/doogee/mix/BoardConfigVendor.mk
+-include vendor/vernee/x1/BoardConfigVendor.mk
 
-LOCAL_PATH := device/doogee/mix
+LOCAL_PATH := device/vernee/x1
 KERNEL_PREBUILT := true
 
 # Platform
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_BOARD_PLATFORM := mt6757
+TARGET_BOARD_PLATFORM := mt6763
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_FACTORYIMAGE := true
 
@@ -27,7 +27,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_CPU_CORTEX_A53 := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := mt6757
+TARGET_BOOTLOADER_BOARD_NAME := mt6763
 
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -43,7 +43,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := mix_lineage_defconfig
+TARGET_KERNEL_CONFIG := x1_lineage_defconfig
 TARGET_KERNEL_SOURCE := kernel-4.4
 endif
 BOARD_KERNEL_BASE := 0x40078000
