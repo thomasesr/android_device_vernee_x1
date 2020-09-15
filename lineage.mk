@@ -15,24 +15,24 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := mix
+PRODUCT_RELEASE_NAME := x1
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/doogee/mix/device_mix.mk)
+$(call inherit-product, device/vernee/x1/device_x1.mk)
 # $(call inherit-product, device/doogee/mix/prop.mk)
 
-TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mix
-PRODUCT_NAME := lineage_mix
-PRODUCT_BRAND := doogee
-PRODUCT_MODEL := doogee_mix
-PRODUCT_MANUFACTURER := doogee
+PRODUCT_DEVICE := x1
+PRODUCT_NAME := lineage_x1
+PRODUCT_BRAND := vernee
+PRODUCT_MODEL := vernee_x1
+PRODUCT_MANUFACTURER := vernee
 
 # Google client ID property.
 PRODUCT_GMS_CLIENTID_BASE := android-DOOGEE
