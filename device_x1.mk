@@ -2,9 +2,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-LOCAL_PATH := device/doogee/mix
+LOCAL_PATH := device/vernee/x1
 
-$(call inherit-product-if-exists, vendor/doogee/mix/mix-vendor.mk)
+$(call inherit-product-if-exists, vendor/vernee/x1/x1-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay # enable this to be able overlay a default wallpaper
@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.mt6757 \
+    gps.mt6763 \
     libcurl \
     libepos
 
