@@ -1,11 +1,11 @@
-# from device/doogee/mix
+# from device/vernee/x1
 #
-# system.prop for DOOGEE MIX
+# system.prop for VERNEE X!
 #
 
 rild.libpath=mtk-ril.so
 rild.libargs=-d /dev/ttyC0
-ro.telephony.ril_class=MT6757
+ro.telephony.ril_class=MT6763
 
 
 # MTK, Infinity, 20090720 {
