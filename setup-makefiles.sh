@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=mix
-VENDOR=doogee
+DEVICE=x1
+VENDOR=vernee
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
